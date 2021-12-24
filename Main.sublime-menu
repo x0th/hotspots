@@ -1,0 +1,23 @@
+[{
+	"id": "preferences",
+	"children":
+	[{
+		"caption": "Package Settings",
+		"id": "package-settings",
+		"children":
+		[{
+			"caption": "Hotspots",
+			"children":
+			[{
+				"caption": "Settings – Default",
+				"command": "open_file",
+				"args": { "file": "${packages}/Hotspots/Hotspots.sublime-settings" }
+			},
+			{
+				"caption": "Settings – User",
+				"command": "open_file",
+				"args": { "file": "${packages}/User/Hotspots.sublime-settings" }
+			}]
+		}]
+	}]
+}]

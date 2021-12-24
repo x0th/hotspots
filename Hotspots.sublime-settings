@@ -1,0 +1,25 @@
+{
+	// show percent values next to counts in annotation
+	"show_percent": true,
+
+	// leave annotation color monotone (monotone color is lower_color)
+	"monotone_color": false,
+
+	// lower color for the annotation gradient
+	"lower_color": "#00FF00",
+
+	// upper color for the annotation gradient
+	"upper_color": "#FF0000",
+
+	// path to cargo
+	"cargo": "~/.cargo/bin/cargo",
+
+	// path to llvm-profdata
+	"llvm_profdata": "llvm-profdata",
+
+	// path to llvm-cov
+	"llvm_cov": "llvm-cov",
+
+	// additional args to paste before each command (for example wsl)
+	"additional_args": []
+}

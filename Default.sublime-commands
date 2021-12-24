@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Hotspots: Run profiling",
+        "command": "hotspots_run"
+    },
+    {
+        "caption": "Hotspots: Clear profiling data",
+        "command": "hotspots_remove"
+    }
+]

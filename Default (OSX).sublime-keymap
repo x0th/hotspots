@@ -1,0 +1,4 @@
+[
+	{ "keys": ["alt+h"], "command": "hotspots_run" },
+	{ "keys": ["super+alt+h"], "command": "hotspots_remove" }
+]
