@@ -9,14 +9,11 @@
 			"caption": "Hotspots",
 			"children":
 			[{
-				"caption": "Settings – Default",
-				"command": "open_file",
-				"args": { "file": "${packages}/Hotspots/Hotspots.sublime-settings" }
-			},
-			{
-				"caption": "Settings – User",
-				"command": "open_file",
-				"args": { "file": "${packages}/User/Hotspots.sublime-settings" }
+				"caption": "Settings",
+				"command": "edit_settings",
+				"args" : {
+					"base_file": "${packages}/hotspots/Hotspots.sublime-settings"
+				}
 			}]
 		}]
 	}]
